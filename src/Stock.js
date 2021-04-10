@@ -29,7 +29,7 @@ class Stocks extends React.Component{
     };
 
     componentDidMount(){
-        fetch('http://cddcontroller.herokuapp.com/stocks')
+        fetch('https://cddcontroller.herokuapp.com/stocks')
         .then(res => res.json())
         .then(res => {
             this.setState({
