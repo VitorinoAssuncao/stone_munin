@@ -3,7 +3,7 @@ import React from 'react';
 function SidebarItem (props,icon,value){
     return (
       <li className="nav-item">
-        <a className="nav-link" href="#">
+        <a className="nav-link" href="cddmonitor.herokuapp.com">
         <span className={`fas fa-${props.icon} m-1`}></span>
          {props.value}
       </a>
