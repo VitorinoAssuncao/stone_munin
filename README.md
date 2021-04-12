@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Desafio da Empresa Pública, em parceria com a empresa ProWay.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Esse pequeno sistema foi desenvolvido com o objetivo de permitir que pessoas cadastradas possam lançar as pontuações de suas partidas de basquete, e ao final tenham acesso a uma listagem conforme o rank das partidas cadastradas.
 
-## Available Scripts
+Para tal foram selecionadas as seguintes técnologias:
 
-In the project directory, you can run:
+* [Javascript-React](https://pt-br.reactjs.org) Como uma das principais linguagens no ramo do frontend, JS traz uma grande performance, assim como bibliotecas e frameworks renomados e modernos, neste caso foi selecionado a biblioteca React com o objetivo de trazer seu dinamismo e modularidade ao projeto.
 
-### `npm start`
+* [CSS - Bootstrap/Reactstrap](https://getbootstrap.com) Alinhando belas e dinâmicas interfaces, com uma programação ágil e agrádavel, o Bootstrap (e o componente Reactstrap) foram escolhidos para trazer uma identidade visual agradável e elegante ao design da pagina em questão.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* [Deploy - Heroku](heroku.com) Atualmente esse projeto se encontra para acesso na rede através do endereço abaixo:
+ ```cddmonitor.herokuapp.com```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Como foi utilizada a opção de conta de desenvolvimento por Hobby (gratuita), isso faz com que possa ter algumas limitações (até 20 acessos simultaneos, 600 Minutos de conexão por dia).
 
-### `npm test`
+## Requisitos para rodar o projeto de forma Local:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Para rodar o projeto de forma local é necessário se possuir o node.js instalado na maquina.
 
-### `npm run build`
+Como demais dependências são tratadas diretamente através de requisições online (como via cdd para os arquivos referentes ao bootstrap e icones, e a api de backend que está hospedada no heroku), apenas a estrutura necessaria para se rodar uma aplicação react é necessária.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Para se baixar o arquivo diretamente do git pode se utilizar o comando abaixo:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+ ``` git clone https://github.com/VitorinoAssuncao/stone_munin.git ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+GitHub CLI
+ 
+ ``` gh repo clone VitorinoAssuncao/stone_munin ```
 
-### `npm run eject`
+Ou simplesmente acessando  a pagina e selecionando a opção de preferencia para download.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Instalando os requisitos e acessando o ambiente virtual:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Para se instalar os componentes necessários e iniciar a aplicação basta realizar o comando abaixo a partir de um terminal dentro do projeto baixado:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ ```npm start```
